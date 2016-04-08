@@ -1,28 +1,40 @@
-name: Verwonderaar
 favicon: null
-layout_spectrum: 0.9849831832107157
-typography_spectrum: 0.024993836181238294
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Verwonderaar
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.1619851
+  brandStrength: 0.6358243022114038
+  lightness: 1
   brandColors:
     - '#ffffff'
     - '#05060a'
     - '#3b3738'
     - '#a28b32'
     - '#ccb772'
-  brandStrength: 0.6358243022114038
-  lightness: 0.8140886870678514
-  saturation: 0.16198506532236934
-  rhythmicContrast: 0.5799641546327621
-purpose: []
+  rhythmicContrast: 0.9110276
+typography_spectrum: 0.02499383618123829
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.9849831832107157
+analytics:
+  twitter: null
+  google: null
+  facebook: null
